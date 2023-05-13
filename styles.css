@@ -6,9 +6,10 @@
   filter: blur(4px);
 -webkit-filter: blur(4px);
 }
-.container{
+.container {
   max-width: 800px;
-  max-height: 600px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .carousel {
@@ -24,14 +25,14 @@
   object-fit: cover;
 }
 .jumbotron {
-  background-color: rgba(255,255,255,0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.5rem;
   padding: 2rem;
-  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 .card {
   border-radius: 0.5rem;
-  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 .card-title {
   font-size: 1.2rem;
